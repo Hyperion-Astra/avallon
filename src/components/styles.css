@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f5f4f6;
+    color: #111827;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1f0d4d;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://cdn.durable.co/getty/11LqxzyTx3iwUaub5JPUz7Ls3L4UXpWXYNJb8aX0J6ptKGYaH6Erat2dm6zxjFEF.jpeg') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+  
+  .hero button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    color: #1f0d4d;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 4rem 2rem;
+    background-color: #e0dde4;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .services .service-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background: #341b5e;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    color: #1f0d4d;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Footer */
+  footer {
+    background: #1f0d4d;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
